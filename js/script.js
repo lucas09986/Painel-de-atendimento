@@ -31,7 +31,7 @@ function atualizarExibicao() {
     let listaEspera = "";
     // Começa do segundo paciente (índice 1) para a lista de espera
     for (let i = 1; i < pacientes.length; i++) {
-      listaEspera += `${i} - ${pacientes[i]}\n`; // Note que o índice começa em 1 aqui
+      listaEspera += `${i} - ${pacientes[i]}\n`; // Adiciona o paciente à lista de espera
     }
     respLista.innerText = listaEspera;
   } else {
